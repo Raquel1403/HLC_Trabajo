@@ -1,0 +1,4 @@
+git clone git@github.com:Raquel1403/HLC_Trabajo.git
+
+git checkout -b nombre-de-la-rama
+
