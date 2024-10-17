@@ -39,4 +39,7 @@ public class Cliente implements Comparable<Cliente> {
 		return dni.compareTo(o.dni);
 	}
 
+	public String getDni() {
+		return dni;
+	}
 }
