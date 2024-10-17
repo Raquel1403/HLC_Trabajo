@@ -41,5 +41,7 @@ public class Cliente implements Comparable<Cliente> {
 
 	public String getDni() {
 		return dni;
+		System.out.println("Hola");
+
 	}
 }
