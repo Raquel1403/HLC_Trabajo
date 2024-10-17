@@ -39,6 +39,8 @@ public class Cliente implements Comparable<Cliente> {
 		return dni.compareTo(o.dni);
 	}
 
+
+
 	public String getDni() {
 		System.out.println(this.dni);
 		return dni;
@@ -47,5 +49,9 @@ public class Cliente implements Comparable<Cliente> {
 
 	public void conflicto(){
 		System.out.println("Intentando crear un conflicto.");
+	}
+
+	public void conflicto(){
+		System.out.println("Creo conflicto");
 	}
 }
