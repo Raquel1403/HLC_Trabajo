@@ -45,7 +45,10 @@ public class Cliente implements Comparable<Cliente> {
 		System.out.println(this.dni);
 		return dni;
 		System.out.println("Hola");
+	}
 
+	public void conflicto(){
+		System.out.println("Intentando crear un conflicto.");
 	}
 
 	public void conflicto(){
